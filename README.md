@@ -7,7 +7,7 @@ Comprehensive bioinformatics pipelines for detecting and characterizing colibact
 This toolkit provides three complementary approaches for CLB island detection, each optimized for different research scenarios:
 
 - **Pipeline 1 (bbmap)**: Read-based detection with high sensitivity for prevalence screening
-- **Pipeline 2 (bowtie2)**: Host depletion + protein-level detection for cleaner signal
+- **Pipeline 2 (DIAMOND)**: Protein-level detection with host depletion for cleaner signal
 - **Pipeline 3 (assembly)**: Structure validation and gene recovery from assembled genomes
 
 ## Features
@@ -44,9 +44,9 @@ cp config.example.sh config.sh
 bash run_pipeline1.sh sample_list.txt
 ```
 
-**Pipeline 2 - Bowtie2 + DIAMOND (recommended for low-biomass samples):**
+**Pipeline 2 - DIAMOND protein search (recommended for low-biomass samples):**
 ```bash
-cd pipeline2_bowtie2
+cd pipeline2_diamond
 cp config.example.sh config.sh
 bash run_pipeline2.sh sample_list.txt
 ```
@@ -60,7 +60,7 @@ bash run_pipeline3.sh assembly_list.txt
 
 ## Pipeline Comparison
 
-| Feature | Pipeline 1 (bbmap) | Pipeline 2 (bowtie2) | Pipeline 3 (assembly) |
+| Feature | Pipeline 1 (bbmap) | Pipeline 2 (DIAMOND) | Pipeline 3 (assembly) |
 |---------|-------------------|---------------------|----------------------|
 | **Input** | Raw reads | Raw reads | Assembled contigs |
 | **Sensitivity** | Very high | High | Moderate |
