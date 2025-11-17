@@ -1,0 +1,4 @@
+SampleID	Assembly_Path
+sample001	/path/to/assemblies/sample001.scaffolds.fasta
+sample002	/path/to/assemblies/sample002.scaffolds.fasta
+sample003	/path/to/assemblies/sample003.scaffolds.fasta

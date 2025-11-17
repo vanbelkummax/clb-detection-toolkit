@@ -1,0 +1,35 @@
+# Config files (contain local paths)
+*/config.sh
+
+# Output directories
+*/pipeline*_results/
+*_results/
+
+# Conda environment
+.conda/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Large data files
+*.fastq
+*.fastq.gz
+*.fasta
+*.fasta.gz
+*.fna
+*.fna.gz
+*.faa
+*.faa.gz
+*.sam
+*.bam
+*.dmnd
+
+# Temporary files
+*.tmp
+.DS_Store

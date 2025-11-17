@@ -1,0 +1,4 @@
+SampleID	Read1_Path	Read2_Path
+sample001	/path/to/data/sample001_R1.fastq.gz	/path/to/data/sample001_R2.fastq.gz
+sample002	/path/to/data/sample002_R1.fastq.gz	/path/to/data/sample002_R2.fastq.gz
+sample003	/path/to/data/sample003_R1.fastq.gz	/path/to/data/sample003_R2.fastq.gz
