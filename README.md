@@ -106,7 +106,6 @@ Download pre-built CLB reference databases:
 
 ```bash
 # Complete CLB island (19 genes, clbA-R)
-wget https://example.com/clb_complete_island.fasta
 
 # Build DIAMOND database
 diamond makedb --in clb_complete_island.fasta --db clb_complete_island.dmnd
@@ -130,4 +129,5 @@ Contributions welcome! Please see CONTRIBUTING.md for guidelines.
 
 
 Developed for metagenomic analysis of colibactin-producing bacteria in infant gut microbiomes.
+
 
