@@ -116,10 +116,8 @@ Or build custom database from GenBank accessions (see `docs/database_constructio
 
 ## Citation
 
-If you use this toolkit in your research, please cite:
-
-```
-[Your publication details here]
+If you use this toolkit in your research, please consider listing me as a co-author and reach out to me
+max.r.van.belkum@vanderbilt.edu
 ```
 
 ## License
@@ -130,11 +128,6 @@ MIT License - see LICENSE file for details.
 
 Contributions welcome! Please see CONTRIBUTING.md for guidelines.
 
-## Support
-
-- Report issues: https://github.com/YOUR_USERNAME/clb-detection-toolkit/issues
-- Documentation: https://github.com/YOUR_USERNAME/clb-detection-toolkit/wiki
-
-## Authors
 
 Developed for metagenomic analysis of colibactin-producing bacteria in infant gut microbiomes.
+
