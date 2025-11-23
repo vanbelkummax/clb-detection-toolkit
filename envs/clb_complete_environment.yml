@@ -1,0 +1,50 @@
+name: clb-pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core Python
+  - python=3.8
+
+  # Alignment & Quantification Tools
+  - bbmap=39.37
+  - diamond=2.1.10
+  - bowtie2=2.5.4
+  - fastp=0.23.4
+
+  # Assembly & Binning (for Pipeline 3)
+  - spades=3.15.5
+  - metabat2=2.15
+  - maxbin2=2.2.7
+  - checkm2=1.0.2
+  - gtdbtk=2.3.2
+  - prodigal=2.6.3
+
+  # Data Analysis
+  - numpy=1.24.3
+  - scipy=1.10.1
+  - pandas=2.0.3
+  - statsmodels=0.14.0
+
+  # Visualization
+  - matplotlib=3.7.2
+  - seaborn=0.12.2
+
+  # R and statistical packages
+  - r-base=4.3.1
+  - r-tidyverse=2.0.0
+  - r-logistf=1.25.0
+
+  # Utilities
+  - parallel
+  - samtools=1.18
+  - bedtools=2.31.0
+
+  # Jupyter for interactive analysis
+  - jupyter
+  - notebook
+
+  # Version control
+  - git
