@@ -5,7 +5,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Conda](https://img.shields.io/badge/conda-managed-green.svg)](https://docs.conda.io/)
 
-**Max van Belkum** | Vanderbilt University
+**Max Van Belkum** | Vanderbilt University
 *Associated with: Ryan et al. (2025) - Bifidobacteria support optimal infant vaccine responses*
 
 ---
@@ -383,3 +383,4 @@ If you use this code or methodology, please cite:
 ---
 
 **Built with computational rigor. Validated with orthogonal methods. Designed for reproducibility.**
+
