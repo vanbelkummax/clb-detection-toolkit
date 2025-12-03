@@ -352,7 +352,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ## 👤 Author
 
-**Max van Belkum**
+**Max Van Belkum**
 Vanderbilt University
 GitHub: [@vanbelkummax](https://github.com/vanbelkummax)
 
@@ -383,4 +383,5 @@ If you use this code or methodology, please cite:
 ---
 
 **Built with computational rigor. Validated with orthogonal methods. Designed for reproducibility.**
+
 
