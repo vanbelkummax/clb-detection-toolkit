@@ -207,10 +207,6 @@ bash run_pipeline.sh --threads 16
 ## 📈 Results at a Glance
 
 ### Burden Distribution
-![Burden Violin Plot](figures/fig1_violin_final.png)
-
-### Prevalence by Category
-![Prevalence Bar Chart](figures/fig2_prevalence_final.png)
 
 ### Statistical Summary
 
@@ -383,5 +379,6 @@ If you use this code or methodology, please cite:
 ---
 
 **Built with computational rigor. Validated with orthogonal methods. Designed for reproducibility.**
+
 
 
