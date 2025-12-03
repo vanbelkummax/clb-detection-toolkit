@@ -330,7 +330,7 @@ This analysis is part of:
 **Clinical Context:**
 - Early-onset colorectal cancer (EOCRC) rising in birth cohorts exposed to early antibiotics
 - Colibactin mutational signatures (SBS88/ID18) found in EOCRC tumors
-- This work provides mechanistic link: antibiotics → genotoxin enrichment → potential cancer risk
+- This work provides an associative link: antibiotics → genotoxin enrichment → potential cancer risk
 
 ---
 
@@ -379,6 +379,7 @@ If you use this code or methodology, please cite:
 ---
 
 **Built with computational rigor. Validated with orthogonal methods. Designed for reproducibility.**
+
 
 
 
